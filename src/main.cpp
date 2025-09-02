@@ -28,13 +28,13 @@ Serial.print(lectureAnalogique);
 Serial.println();
 delay(100);
 
-if(lectureAnalogique >= 2000){
-  monPixel = CRGB(25, 225, 50);
-  FastLED.show();
-}
-else{
-  monPixel = CRGB(0, 0, 0);
-  FastLED.show();
-}
+// if(lectureAnalogique >= 2000){
+//   monPixel = CRGB(25, 225, 50);
+//   FastLED.show();
+// }
+// else{
+//   monPixel = CRGB(0, 0, 0);
+//   FastLED.show();
+// }
 
 }
