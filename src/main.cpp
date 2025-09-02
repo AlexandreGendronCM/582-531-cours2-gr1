@@ -37,4 +37,8 @@ delay(100);
 //   FastLED.show();
 // }
 
+
+monPixel = CRGB(((lectureAnalogique*255)/4095), 0, 0);
+FastLED.show();
+
 }
